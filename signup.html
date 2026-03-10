@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <h2>Signup</h2>
+    <form action="post">
+         <label for="fname">Enter your First Name:</label>
+        <input type="text" placeholder="First Name" style="margin-top: 10px;"> <br>
+        <label for="mname">Enter your Middle Name:</label>
+        <input type="text" placeholder="Middle Name" style="margin-top: 10px;"> <br>
+        <label for="lname">Enter your Last Name:</label>
+        <input type="text" placeholder="Last Name" style="margin-top: 10px;"> <br>
+        <label for="email">Enter your E-mail:</label>
+        <input type="email" placeholder="E-mail" style="margin-top: 10px;"> <br>
+        <label for="password">Create a New Password: </label>
+        <input type="password" placeholder="Password" style="margin-top: 10px;"> <br>
+        <label for="ConfirmPassword">Confirm your Password:</label>
+        <input type="password" placeholder="Confirm Password" style="margin-top: 10px;"> <br>
+        <!-- courses -->
+         <label for="courses">Choose your course: </label>    
+        <select name="coursess" id="coursess" style="margin-top: 10px;">
+            <option value="Mern Stack">Mern Stack</option>
+            <option value="Python Full Stack">Python Full Stack</option>
+            <option value="Java Full Stack">Java Full Stack</option>
+            <option value="Data Analyst">Data Analyst</option>
+         </select>
+         <br>
+         <!-- gender -->
+          <label for="gender">Choose your Gender:</label>
+         <input type="radio" name="gender" id="male" style="margin-top: 10px;"> Male
+         <input type="radio" name="gender" id="female"> Female
+         <input type="radio" name="gender" id="others"> Other
+         <br>
+         <label for="query" >Any Questions?: <br></label>
+         <textarea name="queries? " id="" style="margin-top: 10px;">Ask your Queries Here</textarea> <br>
+         <input type="checkbox" name="" id=""> I agree to the terms and conditions.
+        <br>
+         <input type="submit" value="Create Account" style="margin-top: 10px;">
+        
+    </form>
+
+    <p>Already have an account? <a href="./login.html"> Login</a></p>
+</body>
+</html>
