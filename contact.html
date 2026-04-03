@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" required> <br> <br>
+        <label for="number">Mobile</label>
+        <input type="tel" name="number"> <br> <br>
+        <label for="communication">Type of Communication</label>
+        <select name="communication">
+            <option value="sales">sales</option>
+            <option value="service">service</option>
+            <option value="enquiry">enquiry</option>
+            <option value="advertisement">advertisement</option>
+            <option value="complaint">complaint</option>
+        </select>
+        <br> <br>
+    <label for="description">description</label>
+    <br>
+    <textarea name="description"></textarea>
+    <br> <br>
+    <input type="submit" value="post">
+    </form>
+    <br>
+    <a href="./newslisting.html">back</a>
+</body>
+</html>
